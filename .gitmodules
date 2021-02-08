@@ -1,0 +1,9 @@
+[submodule "BaseMod"]
+	path = BaseMod
+	url = git@github.com:daviscook477/BaseMod.git
+[submodule "StSLib"]
+	path = StSLib
+	url = git@github.com:kiooeht/StSLib.git
+[submodule "ModTheSpire"]
+	path = ModTheSpire
+	url = git@github.com:kiooeht/ModTheSpire.git
