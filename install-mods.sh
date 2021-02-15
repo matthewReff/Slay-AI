@@ -3,8 +3,9 @@
 # Make sure you have the SlayTheSpire game folder copied into the base of this repo, or accomodate for the fact that you don't
 
 # Grab desktop.jar from slay the spire game folder
-mkdir lib
-cp SlayTheSpire/desktop-1.0.jar lib/
+mkdir Mods/lib
+cp SlayTheSpire/desktop-1.0.jar Mods/lib/
+cd Mods 
 
 # Add modTheSpire
 cd ModTheSpire
@@ -29,7 +30,7 @@ cd ../
 
 # Copy the whole arrangement over the the slay the spire foler
 cd _ModTheSpire
-cp -r * ../SlayTheSpire
+cp -r * ../../SlayTheSpire
 cd ../
 
 # Clean up the garbage we made

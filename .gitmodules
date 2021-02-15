@@ -1,12 +1,15 @@
 [submodule "BaseMod"]
-	path = BaseMod
+	path = Mods/BaseMod
 	url = git@github.com:daviscook477/BaseMod.git
 [submodule "StSLib"]
 	path = StSLib
 	url = git@github.com:kiooeht/StSLib.git
 [submodule "ModTheSpire"]
-	path = ModTheSpire
+	path = Mods/ModTheSpire
 	url = git@github.com:kiooeht/ModTheSpire.git
 [submodule "KeyCuts"]
-	path = KeyCuts
+	path = Mods/KeyCuts
 	url = git@github.com:daviscook477/KeyCuts.git
+[submodule "Mods/StSLib"]
+	path = Mods/StSLib
+	url = git@github.com:kiooeht/StSLib.git
