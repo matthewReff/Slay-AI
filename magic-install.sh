@@ -22,6 +22,11 @@ cd StSLib
 mvn package
 cd ../
 
+# Add KeyCuts
+cd KeyCuts
+mvn package
+cd ../
+
 # Copy the whole arrangement over the the slay the spire foler
 cd _ModTheSpire
 cp -r * ../SlayTheSpire

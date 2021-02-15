@@ -7,3 +7,6 @@
 [submodule "ModTheSpire"]
 	path = ModTheSpire
 	url = git@github.com:kiooeht/ModTheSpire.git
+[submodule "KeyCuts"]
+	path = KeyCuts
+	url = git@github.com:daviscook477/KeyCuts.git
