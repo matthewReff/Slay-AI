@@ -28,6 +28,16 @@ cd KeyCuts
 mvn package
 cd ../
 
+# Add Communication Mod
+cd CommunicationMod
+mvn package
+cd ../
+
+# Add spirecomm
+cd spirecomm
+python3 setup.py install
+cd ../
+
 # Copy the whole arrangement over the the slay the spire foler
 cd _ModTheSpire
 cp -r * ../../SlayTheSpire

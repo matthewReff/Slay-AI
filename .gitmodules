@@ -13,3 +13,9 @@
 [submodule "Mods/StSLib"]
 	path = Mods/StSLib
 	url = git@github.com:kiooeht/StSLib.git
+[submodule "Mods/CommunicationMod"]
+	path = Mods/CommunicationMod
+	url = git@github.com:ForgottenArbiter/CommunicationMod.git
+[submodule "Mods/spirecomm"]
+	path = Mods/spirecomm
+	url = git@github.com:ForgottenArbiter/spirecomm.git
