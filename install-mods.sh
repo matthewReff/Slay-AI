@@ -18,16 +18,6 @@ cd BaseMod
 mvn package
 cd ../
 
-# Add StSLib
-cd StSLib
-mvn package
-cd ../
-
-# Add KeyCuts
-cd KeyCuts
-mvn package
-cd ../
-
 # Add Communication Mod
 cd CommunicationMod
 mvn package
@@ -36,6 +26,11 @@ cd ../
 # Add spirecomm
 cd spirecomm
 python3 setup.py install
+cd ../
+
+cd SuperFastMode
+gradle build
+cp build/libs/SuperFastMode.jar ../_ModTheSpire/mods/.
 cd ../
 
 # Copy the whole arrangement over the the slay the spire foler
