@@ -1,3 +1,14 @@
+# Dependencies
+Java 8
+
+Maven
+
+Python 3
+
+pip
+
+setuptools
+
 # Pulling
 This repo uses submodules. If you are cloning for the first time, you can pull down the submodules at the same time with:
 
@@ -23,7 +34,7 @@ https://github.com/ForgottenArbiter/spirecomm (Forked and modified)
 # Setup
 ## Installing
 
-Grab your SlayTheSpire game folder, and copy in the base directory. ("." relative to this readme)
+Grab your SlayTheSpire game folder, and copy in this repository's base directory. ("." relative to this readme)
 
 Add executation permissions on the install script ```$ chmod +x install-mods.sh```
 
@@ -31,21 +42,24 @@ Run the install script ```$ ./install-mods.sh```
 
 This should install all mods in the /Mods folder, and dump them into the SlayTheSpire folder.
 
-Communication mod need to have a communicating file path added to its configuration. Look for more context in Communication mod's readme.
+CommunicationMod needs to have the controller's file path added to its configuration.
 
-Additionally, once slay the spire has been launched, go to the mods section, choose Communication mod, and make sure that you either launch the attached executable here, or check the box to have it run on launch.
+The file is located in ModTheSpire's configuration folder, which changes depending on on your OS.
 
 The configuration file should look approximately like this once you've finished: 
+
 ```
 #{Timestamp}
-command=python {file+path}/Slay-AI/Mods/spirecomm/main.py
+command=python {file+path+to+repository}/Slay-AI/Mods/spirecomm/main.py
 runAtGameStart=true
 ```
 
-#Running
-It seems that running steam muddies the waters as far as whose mod list to use. So specifically don't run Steam at the same time.
+If you need additional help, look for more context in CommunicationMod readme.
 
-For possibly the same reason, using the mod the spire executable also confuses where mods should be sourced.
+# Running
+It seems that running steam muddies the waters as far as whose mod list to use. So specifically don't run Steam at the same time as the ModTheSpire jar file.
+
+For possibly the same reason, using the ModTheSpire executable also confuses where mods should be sourced.
 
 For now, we'll just be using
 

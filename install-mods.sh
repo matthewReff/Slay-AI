@@ -25,11 +25,13 @@ cd ../
 
 # Add spirecomm
 cd spirecomm
-python3 setup.py install
+#python3 setup.py install
+pip install .
 cd ../
 
 cd SuperFastMode
-gradle build
+chmod +x gradlew
+./gradlew build
 cp build/libs/SuperFastMode.jar ../_ModTheSpire/mods/.
 cd ../
 
