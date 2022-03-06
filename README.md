@@ -64,3 +64,8 @@ For possibly the same reason, using the ModTheSpire executable also confuses whe
 For now, we'll just be using
 
 ```$ java -jar ModTheSpire.jar``` in the SlayTheSpire folder
+
+# Logs
+`GamaData` in the `SlayTheSpire` folder contains scraped data from runs, that is used define what the neural network knows about
+
+Also in the `SlayTheSpire` folder is `neuralNet.log`. If you are on linux, you can read this log live whiling running the bot with `tail -f neuralNet.log`
