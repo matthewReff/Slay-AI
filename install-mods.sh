@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Make sure you have the SlayTheSpire game folder copied into the base of this repo, or accomodate for the fact that you don't
+# Make sure you have the SlayTheSpire game folder copied into the base of this repo, or accommodate for the fact that you don't
 
 # Grab desktop.jar from slay the spire game folder
 mkdir Mods/lib
