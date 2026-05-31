@@ -1,0 +1,1 @@
+Known bug: Using an escape potion caused the Agent to get softlocked. Seems to not play nice due to the animation. Also encodes as requiring target, potentially not discardable?

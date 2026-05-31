@@ -1,15 +1,15 @@
 [submodule "BaseMod"]
 	path = Mods/BaseMod
-	url = git@github.com:daviscook477/BaseMod.git
+	url = git@github.com:matthewReff/BaseMod.git
 [submodule "ModTheSpire"]
 	path = Mods/ModTheSpire
 	url = git@github.com:kiooeht/ModTheSpire.git
 [submodule "Mods/CommunicationMod"]
 	path = Mods/CommunicationMod
-	url = git@github.com:ForgottenArbiter/CommunicationMod.git
+	url = git@github.com:matthewReff/CommunicationMod.git
 [submodule "Mods/spirecomm"]
 	path = Mods/spirecomm
 	url = git@github.com:matthewReff/spirecomm.git
 [submodule "Mods/SuperFastMode"]
 	path = Mods/SuperFastMode
-	url = git@github.com:Skrelpoid/SuperFastMode.git
+	url = git@github.com:matthewReff/SuperFastMode.git
