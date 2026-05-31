@@ -1,4 +1,4 @@
-[submodule "BaseMod"]
+[submodule "Mods/BaseMod"]
 	path = Mods/BaseMod
 	url = git@github.com:matthewReff/BaseMod.git
 [submodule "ModTheSpire"]
