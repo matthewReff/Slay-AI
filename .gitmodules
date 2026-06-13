@@ -13,3 +13,6 @@
 [submodule "Mods/SuperFastMode"]
 	path = Mods/SuperFastMode
 	url = git@github.com:matthewReff/SuperFastMode.git
+[submodule "Mods/STS-Telemetry-Mod"]
+	path = Mods/STS-Telemetry-Mod
+	url = git@github.com:matthewReff/STS-Telemetry-Mod.git
