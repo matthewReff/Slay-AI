@@ -23,6 +23,11 @@ cd CommunicationMod
 mvn package
 cd ../
 
+# Add our custom mod
+#cd STS-Telemetry-Mod
+#mvn package
+#cd ../
+
 # Add spirecomm
 cd spirecomm
 #python3 setup.py install
@@ -35,7 +40,7 @@ chmod +x gradlew
 cp build/libs/SuperFastMode.jar ../_ModTheSpire/mods/.
 cd ../
 
-# Copy the whole arrangement over the the slay the spire foler
+# Copy the whole arrangement over the the slay the spire folder
 cd _ModTheSpire
 cp -r * ../../SlayTheSpire
 cd ../
