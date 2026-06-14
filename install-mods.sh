@@ -23,10 +23,15 @@ cd CommunicationMod
 mvn package
 cd ../
 
+# Add StSLib
+cd StSLib
+mvn package
+cd ../
+
 # Add our custom mod
-#cd STS-Telemetry-Mod
-#mvn package
-#cd ../
+cd STS-Telemetry-Mod
+mvn package
+cd ../
 
 # Add spirecomm
 cd spirecomm

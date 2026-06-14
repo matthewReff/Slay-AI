@@ -16,3 +16,6 @@
 [submodule "Mods/STS-Telemetry-Mod"]
 	path = Mods/STS-Telemetry-Mod
 	url = git@github.com:matthewReff/STS-Telemetry-Mod.git
+[submodule "Mods/StSLib"]
+	path = Mods/StSLib
+	url = git@github.com:matthewReff/StSLib.git
