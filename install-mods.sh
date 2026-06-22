@@ -18,6 +18,18 @@ cd BaseMod
 mvn package
 cd ../
 
+# Install remote mods
+mkdir Prebuilt-Mods
+cd Prebuilt-Mods
+if [ ! -f LudicrousSpeed.jar ]; then
+	wget https://github.com/boardengineer/LudicrousSpeed/releases/download/slay-eye/LudicrousSpeed.jar
+fi
+if [ ! -f SaveStateMod.jar ]; then
+	wget https://github.com/boardengineer/STSStateSaver/releases/download/backups/SaveStateMod.jar
+fi
+cp * ../_ModTheSpire/mods/.
+cd ../
+
 # Add Communication Mod
 cd CommunicationMod
 mvn package
