@@ -33,6 +33,11 @@ cd STS-Telemetry-Mod
 mvn package
 cd ../
 
+# Add The Relic Stats mod
+cd StsRelicStats
+mvn package
+cd ../
+
 # Add spirecomm
 cd spirecomm
 #python3 setup.py install

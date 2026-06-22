@@ -19,3 +19,6 @@
 [submodule "Mods/StSLib"]
 	path = Mods/StSLib
 	url = git@github.com:matthewReff/StSLib.git
+[submodule "Mods/StsRelicStats"]
+	path = Mods/StsRelicStats
+	url = git@github.com:ForgottenArbiter/StsRelicStats.git
